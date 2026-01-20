@@ -12,7 +12,7 @@ export default function Header() {
     { name: 'Каталог', href: '/catalog' },
     { name: 'Галерея', href: '/gallery' },
     { name: 'Калькулятор', href: '/calculator' },
-    { name: 'Контакты', href: '#contact' },
+    { name: 'Контакты', href: '/#contact' },
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="#contact"
+              href="/#contact"
               className="px-6 py-2.5 text-white bg-accent rounded-md hover:bg-accent/90 transition-colors font-medium"
             >
               Заказать звонок
@@ -68,7 +68,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="#contact"
+                href="/#contact"
                 className="px-6 py-2.5 text-white bg-accent rounded-md hover:bg-accent/90 transition-colors font-medium text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
